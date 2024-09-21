@@ -1,0 +1,37 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.header {
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 0;
+
+  &:hover {
+    background-color: #5b5b5b;
+  }
+}
+
+.block {
+  padding: 30px;
+  border-radius: 20px;
+  padding-top: 10px;
+  background-color: #888;
+}
+
+.flex {
+  display: flex;
+  gap: 10px;
+}
+
+.active {
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 0;
+  background-color: #5b5b5b;
+}
